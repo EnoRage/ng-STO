@@ -1,0 +1,22 @@
+<mat-card class="deposit-card" layout="row" layout-align="center center">
+  <mat-card-subtitle><h2>Ethereum</h2>
+  </mat-card-subtitle>
+  <mat-card-subtitle style="margin-top: 30px">
+    Account:
+  </mat-card-subtitle>
+  <mat-card-subtitle>
+    Your ETH balance:  ETH
+  </mat-card-subtitle>
+  <mat-card-content>
+    <form class="deposit-form">
+      <mat-form-field class="deposit-card-field">
+        <input matInput placeholder="Enter Amount in WEI" class="sum-input" name="sum" required>
+      </mat-form-field>
+      <button mat-raised-button color="primary" class="deposit-button" >Deposit to plasma</button>
+    </form>
+  </mat-card-content>
+
+  <!--<ng-container *ngIf="this.show;">-->
+    <!--<app-deposit-history></app-deposit-history>-->
+  <!--</ng-container>-->
+</mat-card>
